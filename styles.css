@@ -8,13 +8,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background-color: #171614;
 
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #EDEDF4;
+    --durability-text-color: #F42B03;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #fb4f2c;
+    --text-decoration-color: #F42B03;
 }
 
 .container {
@@ -37,8 +38,8 @@ body {
 
 .resume {
     margin: 50px auto;
-    border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    border: 1px solid #F42B03;
+    box-shadow: 1px 1px 7px 7px #fb4f2c;
     padding: 30px 0;
     max-width: 900px;
 }
