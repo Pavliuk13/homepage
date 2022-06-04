@@ -104,6 +104,12 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    font-weight: bold;
+}
+
+.contact-info__item:hover {
+    color: var(--durability-text-color);
+    transition: .2s ease;
 }
 
 .contact-info__item:not(:last-child) {
@@ -171,7 +177,7 @@ body {
 
 .skills__text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: center;
 }
 
 /* experience and aditional info styles */
